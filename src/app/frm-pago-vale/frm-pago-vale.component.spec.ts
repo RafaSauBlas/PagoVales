@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { FrmPagoValeComponent } from './frm-pago-vale.component';
 
 describe('FrmPagoValeComponent', () => {
