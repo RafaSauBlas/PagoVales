@@ -2,8 +2,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FrmPagoValeComponent } from './frm-pago-vale.component';
 
 describe('FrmPagoValeComponent', () => {
-  let component: FrmPagoValeComponent;
   let fixture: ComponentFixture<FrmPagoValeComponent>;
+  let component: FrmPagoValeComponent;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
