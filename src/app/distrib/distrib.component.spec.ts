@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { BarraComponent } from './barra.component';
+import { DistribComponent } from './distrib.component';
 
-describe('BarraComponent', () => {
-  let component: BarraComponent;
-  let fixture: ComponentFixture<BarraComponent>;
+describe('DistribComponent', () => {
+  let fixture: ComponentFixture<DistribComponent>;
+  let component: DistribComponent;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BarraComponent ]
+      declarations: [ DistribComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BarraComponent);
+    fixture = TestBed.createComponent(DistribComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
